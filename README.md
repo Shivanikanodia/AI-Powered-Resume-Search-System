@@ -62,13 +62,17 @@ Prevents sensitive data from entering vector space
    
 ---
 
-***Evaluation Metrics:**::
+**Evaluation Metrics:**::
 
 <img width="852" height="130" alt="Screenshot 2025-11-06 at 16 00 45" src="https://github.com/user-attachments/assets/c6c54f71-4c18-4c74-9086-f6d29a68dccf" />
+
+--- 
 
 **Streamlit UI**
 
 <img width="1186" height="1578" alt="image" src="https://github.com/user-attachments/assets/92f437c1-37db-4682-85a9-308d83c627f2" />
+
+
 
 <img width="846" height="778" alt="image" src="https://github.com/user-attachments/assets/2d90b042-4d5d-416c-86fd-bd8707b52db2" />
 
@@ -102,11 +106,12 @@ data/resumes/
 Run:
 python build_index.py
 
-This generates:
+This generates: resume_index/
 
-resume_index/
 ├── faiss.index
+
 ├── chunk_meta.pkl
+
 └── resume_meta.pkl
 
 This step is executed only when resumes change.
